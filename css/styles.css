@@ -1,0 +1,316 @@
+@font-face {
+  src: url("../fonts/Roboto-Light.ttf");
+  font-family: "RobotoLight";
+}
+@font-face {
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-family: "RobotoRegular";
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+body{
+  width: 100%;
+  height: auto;
+}
+
+
+/* BLOQUE HEADER & NAVBAR ----------------*/
+
+.contenedor{
+  width: 1440px;
+}
+
+
+.navbar{
+  width: 100%;
+  height: 18vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "RobotoLight";
+
+}
+.logo{
+  max-width: 250px;
+  cursor: pointer;
+  margin-left: 50px;
+}
+nav{
+  flex: 1;
+  padding-left: 170px;
+}
+nav ul li{
+  display: inline-block;
+  color: black;
+  padding-left: 80px;
+  list-style: none;
+  margin: 0;
+}
+nav ul li:hover{
+    color:rgb(38, 180, 209);
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "RobotoRegular";
+    
+    
+  }
+.main{
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  max-width: 1440px;
+}
+
+
+.bloque1{
+  margin-left: 70px;
+  max-width: 686px;
+}
+.bloque2{
+  margin-left: 50px;
+  max-width: 686px;
+}
+.bloque1 h1{
+font-size: 61px;
+font-family: "RobotoRegular";
+line-height:  auto;
+}
+.bloque1 h2{
+  font-size: 40px;
+  font-family: "RobotoLight";
+  }
+.bloque1 p{
+  margin-top: 40px;
+  font-size: 24px;
+  font-family: "RobotoLight";
+  line-height: 30px;
+ 
+}
+.bloque1 button{
+margin-top:45px;
+padding: 15px 25px 15px 25px;
+background-color: black;
+color: white;
+font-family: "RobotoRegular";
+font-size: 24px;
+border-radius: 10px;
+transition: all 0.5s linear;
+}
+.bloque1 button:hover{
+  
+  background-color:rgb(38, 180, 209);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transform: scale(1.1);
+  }
+
+
+/* BLOQUE ABOUT ----------------*/
+
+.About-container {
+  width: 100%;
+  max-width: 1440x;
+  margin: 0 auto;
+}
+
+.About {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 35px 0px 100px 0px;
+  background-color: rgb(54, 54, 54);
+  height: 485px;
+}
+
+.About-info, .About-image {
+  display: flex;
+  flex-direction: column;
+ align-items: flex-start;
+  width: 50%;
+
+}
+.About-image{
+  padding: 0px 35px 25px 0px;
+ width: 607px;
+ height: 465px;
+ border-radius: 50px;
+ 
+}
+.About-info h3 {
+  font-family: "RobotoRegular";
+  font-size: 30px;
+  line-height: 20px;
+  color: white;
+}
+
+.About-info p {
+  margin-top: 24px;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: justify;
+  font-family: "RobotoLight";
+  color: white;
+}
+
+.About-info button {
+  margin-top: 24px;
+  padding: 0 32px;
+  height: 42px;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: "RobotoLight";
+  cursor:pointer;
+  transition: all 0.5s;
+}
+.About-info button:hover {
+  margin-top: 24px;
+  padding: 0 32px;
+  height: 42px;
+  background-color: rgb(38, 180, 209);
+  color:white;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: "RobotoLight";
+  cursor:pointer;
+  transform: scale(1.1);
+}
+
+
+.TitularA {
+  text-align: center;
+  font-family: "RobotoRegular";
+  font-size: 45px;
+}
+
+
+
+/* BLOQUE PROYECTOS -----------------------*/
+
+.Titular1 h3{
+  margin-top: 50px;
+  text-align: center;
+  font-family: "RobotoRegular";
+  font-size: 45px;
+}
+.projects-container {
+  width: 90%;
+  max-width: 1440x;
+  margin: 0 auto;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  margin: 35px 0px 50px 0px;
+}
+
+.project-info, .project-image {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  width: 50%;
+
+}
+.project-image{
+  padding: 25px 35px 25px 0px;
+  margin:0 auto;
+ width: 759px;
+ height: 418px;
+ border-radius: 50px;
+ background-image: cover;
+}
+
+.project-info h3 {
+  font-family: "RobotoRegular";
+  font-size: 30px;
+  line-height: 20px;
+}
+
+.project-info p {
+  margin-top: 24px;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: "RobotoLight";
+}
+
+.project-info button {
+  margin-top: 24px;
+  padding: 0 32px;
+  height: 56px;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: "RobotoLight";
+  transition: all 0.5s;
+}
+.project-info button:hover {
+  margin-top: 24px;
+  padding: 0 32px;
+  height: 56px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgb(163, 163, 163);
+  font-size: 20px;
+  line-height: 28px;
+  font-family: "RobotoLight";
+  color: white;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+
+
+  /* FOOTER-----------------------*/
+
+footer{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 171px;
+  background-color: black;
+  margin-top: 100px;
+}
+footer a{
+  color:white;
+  text-decoration: none;
+  font-family: "RobotoLight";
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  margin-left: 50px;
+}
+
+.logoWhite{
+    max-width: 150px;
+   align-items: center;
+    margin-left: 50px;
+}
+
+.links{
+  display: flex;
+  margin-left: 25px;
+}
+.links a:hover{
+  color:rgb(38, 180, 209);
+}
+
+footer .Redes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content:center;
+  align-items: center;
+  margin-left: 550px; 
+}
+   
+a, u { text-decoration: none; 
+}
