@@ -47,12 +47,12 @@ nav{
 nav ul li{
   display: inline-block;
   color: black;
-  padding-left: 80px;
+  padding-left: 60px;
   list-style: none;
   margin: 0;
 }
 nav ul li:hover{
-    color:rgb(38, 180, 209);
+    color:rgb(38, 180, 209) !important;
     text-decoration: none;
     cursor: pointer;
     font-family: "RobotoRegular";
@@ -273,7 +273,7 @@ footer{
   display: flex;
   align-items: center;
   flex-direction: row;
-  width: 100%;
+  width: 1440px;
   height: 171px;
   background-color: black;
   margin-top: 100px;
